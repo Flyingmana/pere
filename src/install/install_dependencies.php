@@ -7,7 +7,7 @@
  */
 
 chdir(__DIR__);
-$librariedir = "libraries";
+$librariedir = "../libraries";
 passthru("rm -fr $librariedir");
 mkdir($librariedir);
 chdir($librariedir);
