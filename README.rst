@@ -37,5 +37,6 @@ We download the following libraries in a *private* subfolder.
 
 - `arbit-vcs_wrapper <http://arbitracker.org/vcs_wrapper.html>`_
 - `phpab <https://github.com/theseer/Autoload>`_ (autoload generator)
-- `DirectoryScanner <https://github.com/theseer/DirectoryScanner>`_ (is needed for phpab)
+- `DirectoryScanner <https://github.com/theseer/DirectoryScanner>`_ (is needed for phpab, and it needs the fileinfo extension which should be active by default )
+- `Apache Zeta Components <http://incubator.apache.org/zetacomponents/>`_ (php console applications use in generell the Zeta ConsoleTools)
 
