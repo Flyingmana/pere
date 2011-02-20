@@ -19,18 +19,15 @@ passthru("git clone $repository $targetdir");
 
 $repository = "http://svn.apache.org/repos/asf/incubator/zetacomponents/scripts/";
 $targetdir  = "ezc/current/scripts";
-mkdir($targetdir, 0777, true);
-passthru("svn checkout $repository $targetdir");
+passthru("svn export $repository $targetdir");
 
 $repository = "http://svn.apache.org/repos/asf/incubator/zetacomponents/trunk/Base/src/";
 $targetdir  = "ezc/current/Base/src";
-mkdir($targetdir, 0777, true);
-passthru("svn checkout $repository $targetdir");
+passthru("svn export $repository $targetdir");
 
 $repository = "http://svn.apache.org/repos/asf/incubator/zetacomponents/trunk/ConsoleTools/src/";
 $targetdir  = "ezc/current/ConsoleTools/src";
-mkdir($targetdir, 0777, true);
-passthru("svn checkout $repository $targetdir");
+passthru("svn export $repository $targetdir");
 
 
 
@@ -41,7 +38,7 @@ passthru("git clone $repository $targetdir");
 
 $repository = "svn://arbitracker.org/arbit/projects/vcs_wrapper/trunk/src";
 $targetdir  = "arbit_vcs_wrapper";
-passthru("svn checkout $repository $targetdir");
+passthru("svn export $repository $targetdir");
 
 
 chdir("ezc/current");
