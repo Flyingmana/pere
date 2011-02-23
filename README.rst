@@ -20,6 +20,12 @@ We will provide an interface for using pere in your own projects
 if you want an individual lib dir.
 
 
+Usage and so on
+===============
+
+we use the `wiki <https://github.com/Flyingmana/pere/wiki/usage>`_ for such things, so have a look at it.
+
+
 Dependencies
 ============
 
