@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
     $librariedir = realpath( __DIR__ . '/../libraries' );
