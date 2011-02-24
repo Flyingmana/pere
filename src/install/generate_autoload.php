@@ -34,6 +34,6 @@
     $finder = new \TheSeer\Tools\ClassFinder;
     $finder->parseMulti( $scanner( $applicationdir . '/classes' ) );
     $finder->parseMulti( $scanner( $applicationdir . '/interfaces' ) );
-    $finder->parseMulti( $scanner( $applicationdir . '/exceptions' ) );
+    //$finder->parseMulti( $scanner( $applicationdir . '/exceptions' ) );
     $ab = new \TheSeer\Tools\AutoloadBuilder( $finder->getClasses() );
     file_put_contents( $applicationdir . '/autoload.php', $ab->render() );
