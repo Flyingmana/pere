@@ -34,7 +34,7 @@ class processor {
     protected function fetch(){
         foreach ($this->repositories as $repo) {
             
-            $fetcherClass   = \class_exists( '\\pere\\fetcher\\' . $repo->fetcher ) ? '\\pere\\fetcher\\' . $repo->fetcher :  $repo->fetcher ;
+            $fetcherClass   = \class_exists( 'pere\\fetcher\\' . $repo->fetcher ) ? '\\pere\\fetcher\\' . $repo->fetcher :  $repo->fetcher ;
             $fetcher        = new $fetcherClass($repo);
             $fetcher->fetch();
         }
