@@ -23,7 +23,9 @@ if you want an individual lib dir.
 Usage and so on
 ===============
 
-we use the `wiki <https://github.com/Flyingmana/pere/wiki/usage>`_ for such things, so have a look at it.
+we use the `wiki <https://github.com/Flyingmana/pere/wiki>`_ for such things, so have a look at it.
+
+There is also a list of `known bugs and problems <https://github.com/Flyingmana/pere/wiki/known-bugs>`_.
 
 
 Dependencies
