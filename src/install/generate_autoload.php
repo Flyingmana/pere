@@ -3,7 +3,7 @@
 
     $librariedir = realpath( __DIR__ . '/../libraries' );
     //remove unused duplicate interface
-    passthru('rm -fr ' . $librariedir . '/arbit_vcs_wrapper/classes/external/xml/cacheable.php');
+    passthru('rm -fr "' . $librariedir . '/arbit_vcs_wrapper/classes/external/xml/cacheable.php"');
 
     require $librariedir . '/phpab/src/classfinder.php';
     require $librariedir . '/phpab/src/autoloadbuilder.php';
