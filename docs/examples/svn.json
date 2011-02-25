@@ -1,0 +1,15 @@
+{
+    "author": "flyingmana",
+    "repositories" : [
+        {
+            "source"   : "svn://arbitracker.org/phpillow/trunk",
+            "fetcher"  : "svn",
+            "target"   : "phpillow",
+            "autoload" :
+                {
+                    "scan" : ["src/classes/"]
+                },
+            "options"  : []
+        }
+    ]
+}

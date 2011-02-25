@@ -1,0 +1,18 @@
+{
+    "author": "woodworker",
+    "repositories" : [
+        {
+            "source"   : "http://phptal.org/files/PHPTAL-1.2.2.zip",
+            "fetcher"  : "zip",
+            "target"   : "phptal",
+            "autoload" :
+                {
+                    "scan" : [""]
+                },
+            "options"  :
+				{
+					"subfolder" : "PHPTAL-1.2.2/PHPTAL/"
+				}			
+        }
+    ]
+}

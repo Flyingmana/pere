@@ -1,0 +1,38 @@
+{
+    "author": "example",
+    "repositories" : [
+        {
+            "source"   : "svn://arbitracker.org/phpillow/trunk",
+            "fetcher"  : "svn",
+            "target"   : "phpillow",
+            "autoload" :
+                {
+                    "scan" : ["src/classes/"]
+                },
+            "options"  : []
+        },
+        {
+            "source"   : "git://github.com/kore/php-commit-hooks.git",
+            "fetcher"  : "git",
+            "target"   : "php_commit_hooks",
+            "autoload" :
+                {
+                    "scan" : ["src/classes/"]
+                },
+            "options"  : []
+        },
+        {
+            "source"   : "http://phptal.org/files/PHPTAL-1.2.2.zip",
+            "fetcher"  : "zip",
+            "target"   : "phptal",
+            "autoload" :
+                {
+                    "scan" : [""]
+                },
+            "options"  :
+				{
+					"subfolder" : "PHPTAL-1.2.2/PHPTAL/"
+				}			
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "author": "flyingmana",
+    "repositories" : [
+        {
+            "source"   : "git://github.com/kore/php-commit-hooks.git",
+            "fetcher"  : "git",
+            "target"   : "php_commit_hooks",
+            "autoload" :
+                {
+                    "scan" : ["src/classes/"]
+                },
+            "options"  : []
+        }
+    ]
+}
