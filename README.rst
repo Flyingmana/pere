@@ -48,3 +48,13 @@ We download the following libraries in a *private* subfolder.
 - `DirectoryScanner <https://github.com/theseer/DirectoryScanner>`_ (is needed for phpab, and it needs the fileinfo extension which should be active by default )
 - `Apache Zeta Components <http://incubator.apache.org/zetacomponents/>`_ (php console applications use in generell the Zeta ConsoleTools)
 
+Naming Note
+===========
+
+Yeah, i have thought about the name. to name it *Pear Replace* should be a joke.
+I not want to kill pear (who could want such a cruel thing).
+The consequence is, that if someone asks what *pere* means,
+i will say *Php Easy Repository Enhancer*.
+Thats way better, because its a wothless boring name noone will remember.
+
+
