@@ -7,9 +7,10 @@
             "target"   : "phpillow",
             "autoload" :
                 {
-                    "scan" : ["src/classes/"]
+                    "scan" : ["src/classes/"],
+                    "exclude" : []
                 },
-            "options"  : []
+            "options"  : {}
         },
         {
             "source"   : "git://github.com/kore/php-commit-hooks.git",
@@ -17,9 +18,10 @@
             "target"   : "php_commit_hooks",
             "autoload" :
                 {
-                    "scan" : ["src/classes/"]
+                    "scan" : ["src/classes/"],
+                    "exclude" : []
                 },
-            "options"  : []
+            "options"  : {}
         },
         {
             "source"   : "http://phptal.org/files/PHPTAL-1.2.2.zip",
@@ -27,7 +29,8 @@
             "target"   : "phptal",
             "autoload" :
                 {
-                    "scan" : [""]
+                    "scan" : [""],
+                    "exclude" : []
                 },
             "options"  :
 				{

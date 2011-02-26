@@ -7,9 +7,10 @@
             "target"   : "php_commit_hooks",
             "autoload" :
                 {
-                    "scan" : ["src/classes/"]
+                    "scan" : ["src/classes/"],
+                    "exclude" : []
                 },
-            "options"  : []
+            "options"  : {}
         }
     ]
 }

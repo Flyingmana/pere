@@ -96,7 +96,8 @@ class cli
                 $target,
                 new \pere\struct\autoload(
                     $repo->autoload->scan,
-                    $target . '/autoload.php'),
+                    $target . '/autoload.php',
+                    $repo->autoload->exclude),
                 $repo->options);
         }
         return $repositories;

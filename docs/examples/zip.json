@@ -7,7 +7,8 @@
             "target"   : "phptal",
             "autoload" :
                 {
-                    "scan" : [""]
+                    "scan" : [""],
+                    "exclude" : []
                 },
             "options"  :
 				{

@@ -27,6 +27,12 @@ class autoload extends base
     public $outputfile;
 
     /**
+     *
+     * @var string
+     */
+    public $exclude;
+
+    /**
      * Construct struct from given values
      *
      * @param string $version
@@ -35,10 +41,11 @@ class autoload extends base
      * @param int $date
      * @return void
      */
-    public function __construct($scan = array(), $outputfile = 'autoload.php')
+    public function __construct($scan = array(), $outputfile = 'autoload.php', $exclude = array())
     {
         $this->scan = (array) $scan;
         $this->outputfile = (string) $outputfile;
+        $this->exclude     = (array) $exclude;
     }
 
 }

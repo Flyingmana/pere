@@ -7,9 +7,10 @@
             "target"   : "phpillow",
             "autoload" :
                 {
-                    "scan" : ["src/classes/"]
+                    "scan" : ["src/classes/"],
+                    "exclude" : []
                 },
-            "options"  : []
+            "options"  : {}
         }
     ]
 }

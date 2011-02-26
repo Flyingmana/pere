@@ -42,12 +42,13 @@ class processor {
 
     protected function buildAutoload(){
 
-        $scanner = new \TheSeer\Tools\DirectoryScanner;
-        $scanner->addInclude('*.php');
         $finderAll = new \TheSeer\Tools\ClassFinder;
 
 
         foreach ($this->repositories as $repo) {
+            $scanner = new \TheSeer\Tools\DirectoryScanner;
+            $scanner->addInclude('*.php');
+            $scanner->setExcludes( $repo->autoload->exclude );
             $finder = new \TheSeer\Tools\ClassFinder;
             $scan = $scanner( $repo->target );
             $finderAll->parseMulti( $scan );
